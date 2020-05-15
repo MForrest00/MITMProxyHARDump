@@ -14,9 +14,9 @@
     + `AWS_SECRET_ACCESS_KEY` - AWS secret key (see: <https://boto3.amazonaws.com/v1/documentation/api/latest/guide/configuration.html>)
 + Optional:
     + `MITM_PROXY_AUTO_CRAWL_SCHEME` - scheme for the webserver frontend (defaults to `http`)
-    + `MITM_PROXY_AUTO_CRAWL_HOST` - host for the webserver frontend (defaults to `MITM_PROXY_AUTO_CRAWL_HOST`)
+    + `MITM_PROXY_AUTO_CRAWL_HOST` - host for the webserver frontend (defaults to `127.0.0.1:8000`)
     + `HTML2CANVAS_PROXY_SCHEME` - scheme for the webserver frontend (defaults to `http`)
-    + `HTML2CANVAS_PROXY_HOST` - host for the webserver frontend (defaults to `MITM_PROXY_AUTO_CRAWL_HOST`)
+    + `HTML2CANVAS_PROXY_HOST` - host for the webserver frontend (defaults to `127.0.0.1:3000`)
     + `MITM_SIGNATURES_BUCKET` - S3 bucket where signatures are hosted (defaults to `mitm-signatures`)
     + `MITM_SIGNATURES_FILE` - JSON file in which signatures are hosted (defaults to `signatures.json`)
     + `MITM_OUTPUT_BUCKET` - S3 bucket to dump output to (defaults to `mitm-archive`)
