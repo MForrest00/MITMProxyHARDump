@@ -5,18 +5,18 @@ import re
 #     # Content type
 #     {
 #         'match_type': 'content_type',
-#         'adjustment_method': 'strip_content_response',
 #         'match_value': re.compile('image/.*'),
+#         'adjustment_method': 'strip_content_response',
 #     },
 #     {
 #         'match_type': 'content_type',
-#         'adjustment_method': 'strip_content_response',
 #         'match_value': re.compile('audio/.*'),
+#         'adjustment_method': 'strip_content_response',
 #     },
 #     {
 #         'match_type': 'content_type',
-#         'adjustment_method': 'strip_content_response',
 #         'match_value': re.compile('video/.*'),
+#         'adjustment_method': 'strip_content_response',
 #     },
 # ]
 
